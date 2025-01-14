@@ -6,10 +6,13 @@
 #
 
 def lonelyinteger(a):
+    for number in a:
+        if a.count(number) == 1:
+            return number
 
 
 
 
 n = int(input().strip())
 a = list(map(int, input().rstrip().split()))
-lonelyinteger(a)
+print(lonelyinteger(a))

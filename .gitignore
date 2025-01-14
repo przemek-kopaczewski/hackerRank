@@ -2,3 +2,4 @@ venv
 pomc.py
 main.py
 .idea
+*.log
